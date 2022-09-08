@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+
+            height: 232px;
+            width: 160px;
+            margin: 40px;
+            margin-top: -1px;
+
+        }
+
+     
+
+        .container-flex {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+      
+
+        .header {
+            grid-area: header;
+        }
+
+        .side-menu {
+
+            grid-area: side-menu;
+        }
+
+        .main-content {
+
+            grid-area: main-content;
+        }
+
+        .footer {
+            grid-area: footer;
+           
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 'header header header'
+
+                'side-menu main-content main-content'
+                'footer footer footer';
+            gap: 10px;
+        }
+       
+        .header {
+            height: 50px;
+
+        }
+
+        .footer {
+            height: 250px;
+            width: 1400px;
+            background-color: grey;
+          
+
+        }
+
+        .side-menu {
+
+
+            width: 300px;
+            height: 800px;
+
+        }
+
+        .main-content {
+
+            min-height: 400px;
+
+        }
+
+
+
+        ul {
+            background-color:black;
+            list-style: none;
+            height: 50px;
+            width: auto;
+
+
+        }
+
+        li {
+            display: inline-block;
+            margin-top: 6px;
+            margin-left: 9px;
+            font-size: 35px;
+
+            color: white;
+
+        }
+
+        input {
+            height: 20px;
+            width: 400px;
+
+        }
+
+        button {
+            width: 115px;
+            height: 24px;
+            border: 4px solid gray;
+            border: 11px;
+            font-size: 14px;
+            color: blue;
+            background-color: white;
+        }
+
+        h4 {
+
+            text-align: center;
+            margin-top: -5px;
+            margin-left: 8px;
+            color: grey;
+
+        }
+
+        h4:hover {
+            background-color: fuchsia;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        h2 {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li class="link box pinter"> <b>D.company</b></li>
+                <input class="search bar" type="text" titile="Search for product" autocomplete="off"
+                    placeholder="Search for product">
+                <li class="link box float login pointer"> <button class="pointer">Login</button></li>
+                <li class="link box float regiser pointer"> <button class="pointer">Register</button></li>
+            </ul>
+
+        </div>
+
+
+        <div class="side-menu">
+            <a href="">
+                <h4>Top Offers</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>Men Acceseries</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>Woman Acceseries</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4> kids Acceseries</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>mobile phones</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>Undergarments</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>Headphones</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>bloothoth</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>mobile Temper</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>ScreenGuard</h4>
+            </a><br />
+            <br />
+            <br />
+            <a href="">
+                <h4>Backcover</h4>
+            </a><br />
+            <br />
+            <br />
+
+
+
+        </div>
+
+        <div class="main-content">
+
+            <div class="container-flex">
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/74779629/9hods_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4>Comphy Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/111653740/7fh6z_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4>Stylish Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/120260878/qcgk8_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Elegent Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/128761042/njgdf_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Essential Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/77818626/h4ald_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/146811886/nxpqr_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/130998324/la9r6_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/148060413/7se6c_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/1530132/1_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/118820687/kjove_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/137017305/zg2il_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/139975337/aiqhu_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/5215393/1_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <h4> price = 399</h4>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/97661470/0f20u_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/98539256/avo9f_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/42250253/2t3xq_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/142783713/yimuj_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/21304749/95e42_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""> <img src="https://images.meesho.com/images/products/126507061/34tuq_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href=""><img src="https://images.meesho.com/images/products/149068611/i7hjh_400.jpg" alt=""
+                            height="232" width="auto"></a>
+                    <a href="">
+                        <h4> Men Kurtas</h4>
+                    </a>
+                    <a href="">
+                        <h4> price = 399</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="container-flex">
+                <div class="box">
+                    <br>
+                    <h2>Shop Non-Stop on d.Company</h2>
+                    <h3>Trusted by more than 1 Crore Indians
+                        Cash on Delivery | Free Delivery</h3>
+                    </div>
+                        <div class="box">
+                            <br>
+                    <a href=""><img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt=""
+                            height="53" width="205"></a>   
+                    <a href=""> <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt=""
+                            height="53" width="205"></a>
+                        </div>
+             
+                <div class="box">
+                    <br>
+                    <h3>Careers Become a supplier Our Influencer Program Hall of Fame</h3>
+
+                </div>
+                <div class="box">
+                    <br>
+                    <h3>Legal and Policies  Tech Blog Notices and Returns</h3>
+
+                </div>
+        
+            <div class="box">
+                <br>
+                <h2>Contact Us</h2>
+                <h3>Fashnear Technologies Private Limited,
+                    CIN: U74900KA2015PTC082263
+
+                    E-mail address: query@dcompany.com
+                    © 2015-2022 dcompany.com</h3>
+
+            </div>
+
+
+        </div>
+</body>
+
+</html>
